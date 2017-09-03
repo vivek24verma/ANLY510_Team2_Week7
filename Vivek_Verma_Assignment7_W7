@@ -1,0 +1,2 @@
+clean_data$Street<- gsub("(^[[:alpha:]])", "\\U\\1", clean_data$Street, perl=TRUE)
+clean_data$Street.2<- gsub("(^[[:alpha:]])", "\\U\\1", clean_data$Street.2, perl=TRUE)
